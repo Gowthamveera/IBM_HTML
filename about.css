@@ -1,0 +1,59 @@
+body {
+  background: url("https://img.freepik.com/premium-photo/cars-parking-lot-evening-light-sun_150893-219.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white !important;
+}
+body > h2 {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  background-color: rgba(119, 44, 44, 0.2);
+}
+.navbar_left > h2 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+.navbar_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.navbar_right > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.left {
+  display: flex;
+  flex: 0.4;
+}
+.left > img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+.right {
+  flex: 0.6;
+}
+.right-text {
+  font-size: 20px;
+  line-height: 2;
+}
